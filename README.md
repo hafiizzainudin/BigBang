@@ -30,9 +30,9 @@ A new output.json file will be created containing the result in JSON format.
 ## How to View Output (output.json)
 
 ### Option 1: View in Code Editor
-a) Open the folder where output.json is saved.
-b) Right-click on output.json and choose "Open with" → Any Code Editor (e.g., VS Code, Notepad++).
+- Open the folder where output.json is saved.
+- Right-click on output.json and choose "Open with" → Any Code Editor (e.g., VS Code, Notepad++).
 
 ### Option 2: Use Command Prompt (cmd)
-a) cd Path\To\Output.json\Folder (Replace Path\To\Output.json\Folder with the actual folder location of your files)
-b) Run command "type output.json"
+- cd Path\To\Output.json\Folder (Replace Path\To\Output.json\Folder with the actual folder location of your files)
+- Run command "type output.json"
