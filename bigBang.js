@@ -29,6 +29,15 @@ for (let i = 1; i <= 100; i++)
   }
 }
 
+// Check if 'output.json' already exists
+const filePath = 'output.json';
+
+if (fs.existsSync(filePath)) 
+{
+  console.log("output.json already exists. Deleting the old file...");
+  fs.unlinkSync(filePath); // Delete existing file
+}
+
 // Convert the result array to JSON format and write it to a file named 'output.json'
 fs.writeFileSync('output.json', JSON.stringify(result, null, 2));
 
