@@ -8,17 +8,17 @@ const result = [];
 for (let i = 1; i <= 100; i++) 
 {
   // If the number is divisible by both 3 and 5 (i.e., divisible by 15), push "BIGBANG"
-  if (i % 42 === 0) 
+  if (i % 3 === 0 && i % 5 === 0) 
   {
     result.push("BIGBANG");
   } 
   // If the number is divisible by only 3, push "BIG"
-  else if (i % 6 === 0) 
+  else if (i % 3 === 0) 
   {
     result.push("BIG");
   } 
   // If the number is divisible by only 5, push "BANG"
-  else if (i % 7 === 0) 
+  else if (i % 5 === 0) 
   {
     result.push("BANG");
   } 
